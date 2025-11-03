@@ -1,5 +1,7 @@
-def main():
-    print("Hello from app.py")
+# add a line to the file
+cat >> app.py <<'PY'
 
-if __name__ == "__main__":
-    main()
+def extra():
+    print("Extra functionality added")
+PY
+
